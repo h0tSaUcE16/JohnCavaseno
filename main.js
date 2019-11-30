@@ -72,7 +72,7 @@ const arrowChange = () => {
   reelTitleBottom.innerText = reelTitles[reelIndex];
   reelTitleBottom.appendChild(arrow);
 };
-arrow.onclick = arrowChange;
+arrow.onmousedown = arrowChange;
 
 
 
