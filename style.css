@@ -195,7 +195,7 @@ footer {
   }
   header {
     font-size: 27px;
-    /* position: absolute; */
+    position: absolute;
   }
   h1 {
     padding-left: 30px;
