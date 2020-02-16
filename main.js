@@ -1,13 +1,13 @@
 
 const heroStyles = [
   {
-    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/John_0001.jpg")',
+    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/John_0001.jpg")',
   },
   {
-    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/John_0073.jpg")',
+    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/John_0073.jpg")',
   },
   {
-    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/John_0134.jpg")',
+    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/John_0134.jpg")',
   }
 ];
 
@@ -79,11 +79,11 @@ arrow.onmousedown = arrowChange;
 // HEADSHOT
 const headshotSpan = document.createElement("span");
 const headshotLink = document.createElement("a");
-headshotLink.href = "./images/retouch2.jpg";
+headshotLink.href = "../images/retouch2.jpg";
 // headshotLink.setAttribute("download", "../images/19.jpg");
 headshotLink.setAttribute('target',"_blank");
 const headshot = document.createElement("img");
-headshot.src = "./images/retouch2.jpg";
+headshot.src = "../images/retouch2.jpg";
 headshot.id = 'headshot';
 // headshot.setAttribute('style', 'width: 400px')
 headshotSpan.appendChild(headshotLink);
@@ -93,11 +93,11 @@ headshotLink.appendChild(headshot);
 // RESUME
 const resumeSpan = document.createElement("span");
 const resumeLink = document.createElement("a");
-resumeLink.href = "./resume/jcResume.pdf";
+resumeLink.href = "../resume/jcResume.pdf";
 // resumeLink.setAttribute('download', '../resume/johnResume.docx');
 resumeLink.setAttribute('target',"_blank");
 const resume = document.createElement("img");
-resume.src = './resume/jcResume.png';
+resume.src = '../resume/jcResume.png';
 resume.id = 'resume';
 // resume.setAttribute('style', 'width: 400px;');
 resumeSpan.appendChild(resumeLink);
@@ -117,8 +117,8 @@ dataPages[1].appendChild(headshotResumeDiv);
 // = [document.createElement('div'), document.createElement('div')];
 
 // ARRAYS OF GALLERY IMAGES PATHS
-const tall = ['./gallery/wide/IMG_6374.jpg','./gallery/tall/IMG_6016.jpg','./gallery/tall/IMG_6017.jpg','./gallery/tall/IMG_6371.jpg','./gallery/tall/IMG_6373.jpg','./gallery/tall/IMG_6422.jpg','./gallery/tall/IMG_6423.jpg','./gallery/tall/IMG_6424.jpg','./gallery/tall/IMG_6425.jpg','./gallery/tall/IMG_6426.jpg','./gallery/tall/IMG_6574.jpg','./gallery/tall/IMG_6722.jpg','./gallery/tall/IMG_6723.jpg'];
-const wide = [,'./gallery/wide/IMG_6110.jpg','./gallery/wide/IMG_6096.jpg','./gallery/wide/IMG_6109.jpg','./gallery/wide/IMG_6129.jpg','./gallery/wide/IMG_6370.jpg','./gallery/wide/IMG_6372.jpg','./gallery/wide/IMG_6379.jpg','./gallery/wide/IMG_6377.jpg','./gallery/wide/IMG_6378.jpg','./gallery/wide/IMG_6380.jpg','./gallery/wide/IMG_6725.jpg','./gallery/wide/IMG_6726.jpg','./gallery/wide/IMG_6727.jpg'];
+const tall = ['../gallery/wide/IMG_6374.jpg','../gallery/tall/IMG_6016.jpg','../gallery/tall/IMG_6017.jpg','../gallery/tall/IMG_6371.jpg','../gallery/tall/IMG_6373.jpg','../gallery/tall/IMG_6422.jpg','../gallery/tall/IMG_6423.jpg','../gallery/tall/IMG_6424.jpg','../gallery/tall/IMG_6425.jpg','../gallery/tall/IMG_6426.jpg','../gallery/tall/IMG_6574.jpg','../gallery/tall/IMG_6722.jpg','../gallery/tall/IMG_6723.jpg'];
+const wide = [,'../gallery/wide/IMG_6110.jpg','../gallery/wide/IMG_6096.jpg','../gallery/wide/IMG_6109.jpg','../gallery/wide/IMG_6129.jpg','../gallery/wide/IMG_6370.jpg','../gallery/wide/IMG_6372.jpg','../gallery/wide/IMG_6379.jpg','../gallery/wide/IMG_6377.jpg','../gallery/wide/IMG_6378.jpg','../gallery/wide/IMG_6380.jpg','../gallery/wide/IMG_6725.jpg','../gallery/wide/IMG_6726.jpg','../gallery/wide/IMG_6727.jpg'];
 
 // ,'../gallery/wide/IMG_6111.jpg'
 
