@@ -48,7 +48,7 @@ const reelTitles = ['DANCE REEL', 'FIGHT REEL', 'VOCAL REEL'];
 // reelTitleUp2.className = 'reelTitle';
 // reelTitleUp2.innerText = reelTitles[2];
 // dataPages[0].appendChild(reelTitleUp2);
-const reels = ["https://www.youtube.com/embed/2y2km_SFviQ", "https://www.youtube.com/embed/iqYVwag3N7Y", "https://www.youtube.com/embed/3i6Qg18eGxs"];
+const reels = ["https://www.youtube.com/embed/LBwNaKJbw38", "https://www.youtube.com/embed/iqYVwag3N7Y", "https://www.youtube.com/embed/g7aIWyoT-OA"];
 const reel = document.createElement("iframe"); // REEL
 reel.src = reels[0];
 reel.id = 'reel';
